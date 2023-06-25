@@ -148,10 +148,25 @@ input[type="submit"]:hover{
 }
 
 .card>img{
-    width: 400px;
+    width: 600px;
 }
-
-
+/*  kodfun-galeri */
+.kodfun-galeri{
+    display: flex;
+    height: 20em;
+    gap: 1rem;
+}
+.kodfun-galeri > div{
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4 );
+}
+.kodfun-galeri > div:hover{
+    flex: 5;
+}
 
 
 
