@@ -42,14 +42,23 @@ input[type="submit"]{
     background-color: blueviolet;
     color: white;
     padding: 9px;
-    width: 70px;
+    width: 100px;
     font-size: 15px;
 
 }
 input[type="submit"]:hover{
     background-color: rgb(78, 19, 134);
 }
+input[type="text"]{
+    outline: none;
+    padding: 5px;
+}
+input[type="email"]{
+    outline: none;
+    padding: 5px;
+    
 
+}
 /* logo */
 .logo{
     display: grid;
@@ -153,8 +162,10 @@ input[type="submit"]:hover{
 /*  kodfun-galeri */
 .kodfun-galeri{
     display: flex;
-    height: 20em;
+    height: 25em;
     gap: 1rem;
+    margin-left: 90px;
+    margin-right: 90px;
 }
 .kodfun-galeri > div{
     flex: 1;
@@ -168,12 +179,25 @@ input[type="submit"]:hover{
     flex: 5;
 }
 
+/* feedback */
 
-
+.feedback{
+    height: 300px;
+    z-index: 1;
+    color: white;
+    position: relative;
+    background-size: cover;
+    background-image: url(../media/Тело.jpg);
+}
+form{
+   
+    
+}
 
 
 
 .opacity{
+    z-index: -1;
     position: absolute;
     width: 100%;
     height: 100%;
